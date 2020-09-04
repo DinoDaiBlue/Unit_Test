@@ -1,4 +1,5 @@
 # test_point_on_line_function
+import pytest
 @pytest.mark.parametrize("point1, point2, input, expected", [
 	((1, 1), (2, 2), 3, 3),
 	((1, 0), (1, 2), 1, 3),
